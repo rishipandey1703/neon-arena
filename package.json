@@ -1,0 +1,9 @@
+{
+  "name": "neon-arena",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NEON ARENA multiplayer party game",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "engines": { "node": ">=22" },
+  "dependencies": { "ws": "^8.18.0" }
+}

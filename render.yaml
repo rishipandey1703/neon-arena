@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: neon-arena
+    runtime: node
+    plan: 0.5c-512mb
+    numInstances: 1
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
